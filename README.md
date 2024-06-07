@@ -1,4 +1,4 @@
-![proyecto](https://github.com/gaudikarina/Orange/assets/71100137/ff862f00-2964-48a8-ac88-7af211a863a5)# DETECTOR DE CONTRACCION MUSCULAR UTILIZANDO
+# DETECTOR DE CONTRACCION MUSCULAR UTILIZANDO
 SEÑALES ELECTROMIOGRÁFICAS SUPERFICIALES
 
 Realizado por: Gaudi Morantes
@@ -42,6 +42,11 @@ En segundo lugar, se propusieron tres modelos: Máquinas de Soporte Vectorial, B
 se realizaron variaciones en los hiperparámetros, obteniéndose el mejor resultado con los mostrados en la figura 10. En el caso de Test and Score se escogió una validación cruzada de 10 folds, debido a que ese fue el mismo criterio que se utilizó en el diseño de este detector utilizando un umbral optimizado como método de detección [6].
 En tercer lugar se evalúo el modelo en unos datos de prueba, los mismos pertenecen a los datos de dos sujetos que no estaban en los datos de entrenamiento, para ello se utilizó el widget Test and score en este caso configurado como test on test data. Los resultados muestran un clasificador con una alta precisión del 88.3% para las redes neuronales y un área bajo la curva ROC de 95.2%. Es de destacar, que en los datos de prueba el método SVM desmejora notablemente y baja a un 19.1% en el área bajo la curva y una precisión de solo el 27,1%.
 Comparando estos resultados con el trabajo realizado en [6] se obtuvo un área bajo la curva de 93%, por lo que el detector con redes neuronales significa una mejora del modelo en un 2.2%. 
+
+![proyecto](https://github.com/gaudikarina/Orange/assets/71100137/be286b46-504c-4af0-bc23-e11f47c71ea1)
+
+
+
 
 
 
